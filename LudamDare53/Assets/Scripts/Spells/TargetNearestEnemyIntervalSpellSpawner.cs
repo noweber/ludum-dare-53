@@ -8,7 +8,10 @@ namespace Assets.Scripts.Spells
         protected override void SpawnObject()
         {
             var enemyTarget = SpellFunctions.GetNearestEnemy(gameObject);
-            Instantiate(ObjectToSpawn, GetSpawnPosition(), Quaternion.identity).GetComponent<Rigidbody2dTargetChaser>().Initialize(enemyTarget, false);
+            if (enemyTarget != null)
+            {
+                Instantiate(ObjectToSpawn, GetSpawnPosition(), Quaternion.identity).GetComponent<Rigidbody2dTargetChaser>().Initialize(enemyTarget, false);
+            }
         }
     }
 }

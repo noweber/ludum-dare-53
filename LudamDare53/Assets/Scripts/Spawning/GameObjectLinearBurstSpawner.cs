@@ -2,9 +2,9 @@
 
 public class GameObjectLinearBurstSpawner : GameObjectIntervalSpawner
 {
-    [SerializeField] private int numberOfObjectsToSpawn;
-    [SerializeField] private float spawnSpeedMultiplier = 0.9f;
-    [SerializeField] private int numberOfObjectsSpawned = 0;
+    [SerializeField] protected int numberOfObjectsToSpawn;
+    [SerializeField] protected float spawnSpeedMultiplier = 0.9f;
+    [SerializeField] protected int numberOfObjectsSpawned = 0;
     [SerializeField] private float originalSpawnInterval;
 
     protected override void Start()

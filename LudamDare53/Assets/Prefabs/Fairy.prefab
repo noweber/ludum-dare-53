@@ -72,6 +72,8 @@ MonoBehaviour:
   maxSpeed: 2.56
   minMagnitude: 0.256
   maxMagnitude: 2.56
+  meanderAlongXAxis: 1
+  meanderAlongYAxis: 0
   targetPosition: {x: 0, y: 0, z: 0}
 --- !u!198 &27941429444892079
 ParticleSystem:
@@ -4917,7 +4919,6 @@ GameObject:
   - component: {fileID: 27941429544447703}
   - component: {fileID: 27941429544447696}
   - component: {fileID: 27941429544447698}
-  - component: {fileID: 27941429544447699}
   m_Layer: 0
   m_Name: Wings
   m_TagString: Untagged
@@ -4954,8 +4955,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b43ca83902882e4398462a0d942dc91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSize: 0.5
-  maxSize: 1.5
+  minSize: 0.75
+  maxSize: 1.25
 --- !u!114 &27941429544447698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4970,23 +4971,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minYSize: 0.75
   maxYSize: 1.25
---- !u!114 &27941429544447699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 27941429544447702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f37f2b4a75dd8a4986c945659657398, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  XAxisMeander: 0
-  YAxisMeander: 1
-  ZAxisMeander: 0
-  MaxMeanderMagnitude: {x: 0.05, y: 0.00005, z: 0.05}
-  MaxMeanderSpeed: {x: 0.25, y: 10, z: 0.25}
 --- !u!1 &27941430697997118
 GameObject:
   m_ObjectHideFlags: 0
@@ -5085,8 +5069,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eabe748e4b2d8f4898f05ed45b69943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSize: 1
-  maxSize: 2.5
+  minSize: 0.75
+  maxSize: 1.5
 --- !u!114 &27941430697997114
 MonoBehaviour:
   m_ObjectHideFlags: 0

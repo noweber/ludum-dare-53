@@ -45,7 +45,7 @@ namespace Assets.Scripts.Score
                 SaveHighScore(HighScore);
                 UpdateScoreText(scoreUiText, Score, "High Score: ");
             }
-            UpdateScoreText(scoreUiText, Score, "Score: ");
+            UpdateScoreText(scoreUiText, Score, "");
         }
 
 
@@ -64,7 +64,7 @@ namespace Assets.Scripts.Score
         {
             if (text != null)
             {
-                if (!string.IsNullOrEmpty(label))
+                if (label != null)
                 {
                     text.text = label;
                 }
