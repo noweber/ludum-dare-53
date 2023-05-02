@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2299674535267502214}
   - component: {fileID: 6004845854088431343}
   - component: {fileID: 8697294921519011708}
+  - component: {fileID: 6481641223977978157}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Untagged
@@ -113,8 +114,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 603b4bb75e785144fb9aef07555c70d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minYSize: 1
-  maxYSize: 4
+  minYSize: 0.5
+  maxYSize: 1.5
+--- !u!114 &6481641223977978157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2299674535267502209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0875136c5e7d20428f6e64d344d3371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SecondsUntilDestruction: 64
 --- !u!1 &8800285724633690329
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,12 +318,20 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7528267402398989278, guid: a7b995b92d2cf344f9ed8409860223d6, type: 3}
+      propertyPath: SpawnInterval
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7528267402398989278, guid: a7b995b92d2cf344f9ed8409860223d6, type: 3}
       propertyPath: SpawnOffset.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7528267402398989278, guid: a7b995b92d2cf344f9ed8409860223d6, type: 3}
       propertyPath: SpawnOffset.y
-      value: 2
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7528267402398989278, guid: a7b995b92d2cf344f9ed8409860223d6, type: 3}
+      propertyPath: SpawnIntervalRange
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7b995b92d2cf344f9ed8409860223d6, type: 3}
