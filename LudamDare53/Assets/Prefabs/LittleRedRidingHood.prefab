@@ -307,7 +307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 2
   rateOfFireInSeconds: 0.5
-  hitSound: {fileID: 4340961451919338142}
+  hitSound: {fileID: 0}
   numberOfHitsRemainingBeforeDestruction: 1
   CanCauseInfiniteHits: 1
 --- !u!114 &8173728005254386796
