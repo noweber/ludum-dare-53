@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -129,8 +129,9 @@ GameObject:
   - component: {fileID: 2761814791128011161}
   - component: {fileID: 7076121484265327125}
   - component: {fileID: -2409659690555974361}
+  - component: {fileID: 8568949797670865035}
   m_Layer: 0
-  m_Name: Pollen
+  m_Name: PointsPollen
   m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -369,3 +370,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8568949797670865035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7960023451374601095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6809f257c1f324387afce8b5819264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpeed: 0.125
+  maxSpeed: 0.25
+  minMagnitude: 0.125
+  maxMagnitude: 0.25
+  meanderAlongXAxis: 1
+  meanderAlongYAxis: 0
+  targetPosition: {x: 0, y: 0, z: 0}
