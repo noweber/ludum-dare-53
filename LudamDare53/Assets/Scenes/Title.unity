@@ -1353,6 +1353,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1779574616}
     m_Modifications:
+    - target: {fileID: -887914394101989581, guid: 7c78843eba08c9b4bbcfce993d540e10, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 915587534088429413, guid: 7c78843eba08c9b4bbcfce993d540e10, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1427,6 +1431,7 @@ PrefabInstance:
     - {fileID: 915587534088429436, guid: 7c78843eba08c9b4bbcfce993d540e10, type: 3}
     - {fileID: 915587534088429439, guid: 7c78843eba08c9b4bbcfce993d540e10, type: 3}
     - {fileID: 915587534088429437, guid: 7c78843eba08c9b4bbcfce993d540e10, type: 3}
+    - {fileID: -887914394101989581, guid: 7c78843eba08c9b4bbcfce993d540e10, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7c78843eba08c9b4bbcfce993d540e10, type: 3}
 --- !u!4 &1446480487 stripped
 Transform:
