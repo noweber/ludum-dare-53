@@ -47,9 +47,9 @@ namespace Assets.Scripts.Player
             CurrentLevel++;
             ExperiencePointsToNextLevel += ExperiencePointsNeededThisLevel();
             PlaySoundEffect();
-            if(levelUpParticlesPrefab != null)
+            if (levelUpParticlesPrefab != null)
             {
-                Instantiate(levelUpParticlesPrefab);
+                Instantiate(levelUpParticlesPrefab, transform.position, Quaternion.identity);
             }
         }
 

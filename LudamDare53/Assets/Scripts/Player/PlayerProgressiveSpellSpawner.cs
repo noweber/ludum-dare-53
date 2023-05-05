@@ -3,23 +3,22 @@ using UnityEngine;
 
 namespace Assets.Scripts.Spells
 {
-    public sealed class PlayerProgressiveSpellSpawner : GameObjectLinearBurstSpawner
+    public sealed class PlayerProgressiveSpellSpawner : GameObjectIntervalSpawner
     {
         [SerializeField] LevelUpController levelController;
 
-        private int lastKnownLevel = 0;
+        private int lastKnownLevel = 1;
 
         private void LateUpdate()
         {
-            if(levelController == null)
+            if (levelController == null)
             {
                 levelController = GetComponent<LevelUpController>();
             }
-            if(levelController != null && lastKnownLevel != levelController.Level)
+            if (levelController != null && lastKnownLevel != levelController.Level)
             {
                 lastKnownLevel = levelController.Level;
                 AddNumberOfProjectilesToSpawn(1);
-                ReduceProjectileSpawnRate();
             }
         }
 
@@ -31,12 +30,7 @@ namespace Assets.Scripts.Spells
 
         private void AddNumberOfProjectilesToSpawn(int value)
         {
-            base.numberOfObjectsToSpawn += value;
-        }
-
-        private void ReduceProjectileSpawnRate()
-        {
-            base.spawnSpeedMultiplier *= spawnSpeedMultiplier;
+            base.numberOfObectsToSpawnPerBurst += value;
         }
     }
 }
