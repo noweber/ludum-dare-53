@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3301377295063903887}
   - component: {fileID: 8984679520461785511}
   m_Layer: 0
-  m_Name: CreatureCollectParticles
+  m_Name: ExperienceCollectParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -8540,12 +8540,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 915587534088429437, guid: 7c78843eba08c9b4bbcfce993d540e10, type: 3}
+      propertyPath: levelUpParticlesPrefab
+      value: 
+      objectReference: {fileID: 6327925113912913059, guid: 61618d8f259f1f04cb29c0cc475709b7, type: 3}
+    - target: {fileID: 915587534088429437, guid: 7c78843eba08c9b4bbcfce993d540e10, type: 3}
       propertyPath: ExperiencePointsToNextLevel
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 915587534088429437, guid: 7c78843eba08c9b4bbcfce993d540e10, type: 3}
       propertyPath: BaseLevelUpExperiencePointsCost
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -887914394101989581, guid: 7c78843eba08c9b4bbcfce993d540e10, type: 3}

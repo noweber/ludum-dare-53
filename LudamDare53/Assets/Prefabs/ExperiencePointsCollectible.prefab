@@ -33,6 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3898545009396362064}
+  - {fileID: 1952819199279933857}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -224,3 +225,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1312abf8fc520d24d820d281e6c16e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &9109772228788771908
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3898545008340664645}
+    m_Modifications:
+    - target: {fileID: 7310933345482372578, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: m_Name
+      value: ExperiencePoints
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372581, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372581, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372581, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372581, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372581, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372581, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372581, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372581, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372581, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372581, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372581, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372582, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: ExperiencePointsValue
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310933345482372582, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+      propertyPath: soundEffectMinimumPitch
+      value: 0.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+--- !u!4 &1952819199279933857 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7310933345482372581, guid: 6afb8cef7e3017b42ae64a9bb2a08fb9, type: 3}
+  m_PrefabInstance: {fileID: 9109772228788771908}
+  m_PrefabAsset: {fileID: 0}

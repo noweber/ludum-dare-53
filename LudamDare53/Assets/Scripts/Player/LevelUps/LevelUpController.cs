@@ -21,6 +21,8 @@ namespace Assets.Scripts.Player
 
         [SerializeField] private string textPrefixLabel;
 
+        [SerializeField] private GameObject levelUpParticlesPrefab;
+
         protected override void Awake()
         {
             base.Awake();
@@ -43,17 +45,27 @@ namespace Assets.Scripts.Player
         private void LevelUp()
         {
             CurrentLevel++;
-            ExperiencePointsToNextLevel += (BaseLevelUpExperiencePointsCost * Level);
+            ExperiencePointsToNextLevel += ExperiencePointsNeededThisLevel();
             PlaySoundEffect();
+            if(levelUpParticlesPrefab != null)
+            {
+                Instantiate(levelUpParticlesPrefab);
+            }
         }
+
+        private int ExperiencePointsNeededThisLevel()
+        {
+            return BaseLevelUpExperiencePointsCost * Level;
+        }
+
         private void LateUpdate()
         {
             if (UiText == null)
             {
                 return;
             }
-
-            UiText.text = textPrefixLabel + CurrentLevel.ToString();
+            float xpTotalThisLevel = ExperiencePointsNeededThisLevel();
+            UiText.text = textPrefixLabel + CurrentLevel.ToString() + "." + Mathf.RoundToInt(((xpTotalThisLevel - ExperiencePointsToNextLevel) / xpTotalThisLevel) * 100).ToString();
         }
     }
 }
