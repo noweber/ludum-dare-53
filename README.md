@@ -38,13 +38,9 @@ We welcome your feedback and bug reports. If you encounter any issues while play
 
 ## Screenshots
 
-![Gameplay Screenshot 1]([path/to/screenshot1.png](https://github.com/noweber/ludum-dare-53/blob/97ef6a0d19aa0f9a80853fc033058574513ac69e/Screenshot%202023-07-27%20155824.png))
-![Gameplay Screenshot 2](path/to/screenshot2.png)
-![Gameplay Screenshot 3](path/to/screenshot3.png)
-
-## License
-
-Square Invaders is released under the [MIT License](LICENSE).
+![Gameplay Screenshot 1](https://github.com/noweber/ludum-dare-53/blob/97ef6a0d19aa0f9a80853fc033058574513ac69e/Screenshot%202023-07-27%20155824.png)
+![Gameplay Screenshot 2](https://github.com/noweber/ludum-dare-53/blob/33751caabb2a67bec3eda6caef57e4984571998c/Screenshot%202023-07-27%20155923.png)
+![Gameplay Screenshot 3](https://github.com/noweber/ludum-dare-53/blob/33751caabb2a67bec3eda6caef57e4984571998c/Screenshot%202023-07-27%20160010.png)
 
 Enjoy the game and have fun!
 
