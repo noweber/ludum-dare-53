@@ -43,6 +43,3 @@ We welcome your feedback and bug reports. If you encounter any issues while play
 ![Gameplay Screenshot 3](https://github.com/noweber/ludum-dare-53/blob/33751caabb2a67bec3eda6caef57e4984571998c/Screenshot%202023-07-27%20160010.png)
 
 Enjoy the game and have fun!
-
----
-*Note: You can replace the placeholders like `path/to/logo.png`, `Your Name`, and `yourusername` with actual paths, names, and links.*
