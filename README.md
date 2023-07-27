@@ -1,6 +1,6 @@
 # Square Invaders - Ludum Dare 53 Game Jam Entry
 
-![Square Invaders Logo](/2023-07-27 15_57_37-Unity WebGL Player _ LudamDare53.png)
+![Square Invaders Logo](2023-07-27 15_57_37-Unity WebGL Player _ LudamDare53.png)
 
 Square Invaders is a 2D platformer game developed for Ludum Dare 53, inspired by the concept of "Vampire Survivors." In this game, you take control of a blue ball and embark on a thrilling adventure to collect pollen while defeating the evil red squares that threaten your world.
 
