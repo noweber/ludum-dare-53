@@ -38,7 +38,7 @@ We welcome your feedback and bug reports. If you encounter any issues while play
 
 ## Screenshots
 
-![Gameplay Screenshot 1](path/to/screenshot1.png)
+![Gameplay Screenshot 1]([path/to/screenshot1.png](https://github.com/noweber/ludum-dare-53/blob/97ef6a0d19aa0f9a80853fc033058574513ac69e/Screenshot%202023-07-27%20155824.png))
 ![Gameplay Screenshot 2](path/to/screenshot2.png)
 ![Gameplay Screenshot 3](path/to/screenshot3.png)
 
